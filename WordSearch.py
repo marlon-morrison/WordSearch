@@ -1,9 +1,9 @@
-#C:\Users\...\Python
+#C:\Users\...\Python\WordSearch
 import sys
-
+print("")
 word = input("Search for a word: ")
 
-with open("dict.txt") as f:
+with open("WordSearch\dict.txt") as f:
 	for line in f:
 		if word in line:
 			print(line)
